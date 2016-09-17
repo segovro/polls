@@ -253,7 +253,7 @@ var pollsContract = web3.eth.contract([ {
 	"type" : "event"
 } ]);
 
-var polls = pollsContract.at("0xf025d81196b72fba60a1d4dddad12eeb8360d828");
+var polls = pollsContract.at("0x07f9e29fE650900E40a1E38488Ba9C7b34a80D87");
 
 var totals = polls.getTotals();
 var totalNrMembers = totals[0];
